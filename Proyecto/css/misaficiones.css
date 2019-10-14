@@ -1,0 +1,175 @@
+@font-face {
+	font-family:awesome;
+    src:url(../Fuentes/awesome.otf);
+}
+
+body {
+  	margin:0 auto;
+  	padding:0;
+	
+
+}
+
+h1 { 
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    font-family: awesome;
+    font-size: 500%;
+}
+
+#cabecera {
+   	padding-top: 0px;
+   	float:left;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(70deg, #6EE5C2, #8C04A8);
+}
+
+
+
+#menu {  
+    padding-left: 2px;
+	margin-top: 0%;
+    text-align: left;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+			
+ul, ol {
+	list-style:none;/*quitar los puntos de la lista*/
+}
+
+.nav > li {
+	float:left;
+}
+			
+.nav li a {
+	background-color:#27202B;
+	color:#fff;
+	text-decoration:none;
+	padding:25px 45px;
+	display:block;
+	font-family:monospace;
+	font-size: 113%;
+}
+			
+.nav li a:hover {/*Al pasar el raton por encima cambia de color*/
+	background-color:#434343;
+}
+			
+.nav li ul {
+	display:none;/*desaparecen los submenus*/
+	position:absolute;
+	min-width:150px;
+}
+			
+.nav li:hover > ul {/*aparecen los elementos directos de ul*/
+	display:block;
+}
+			
+.nav li ul li {
+	position:relative;
+}
+
+
+#contenido {
+    float: left;
+    margin: 4% 0% 7% 5%;
+    width:71%;
+    font-size: 150%;
+    height: 300%;
+    background:linear-gradient(70deg, #6EE5C2, #8C04A8);
+    color: white;
+    font-family:monospace;
+    border: 2px solid white;
+    outline: 2px solid purple;
+	padding: 1%;
+	text-align: justify;
+	margin-bottom: -300px;
+}	
+
+#nombre{
+
+	font-size: 280%;
+}
+
+
+
+.morado {
+	
+	border-top: 1.4px dashed white;
+	border-bottom: 1.4px dashed white;
+	text-align: left;
+	padding: 8px;
+}
+
+
+
+#imagenes1{
+	
+	width: 27%;
+	margin:10px;
+	
+}
+
+#imagenes2{
+	margin-top: 2%;
+	width: 30%;
+
+}
+
+#imagenes3{
+	
+	width: 30%;
+	margin-right: 10px;
+
+
+}
+
+#txt {
+ 
+ position: relative;
+ top: 40px;
+
+  
+}
+#aficiones {
+    
+	 float: right;
+     margin: 6% 1% 15% 15%;
+	 margin-left: 8px;
+     width: 16%;
+     background:#27202B;
+	 border: 1px solid white;
+	 outline: 2px solid black;
+     color: white;
+     font-family:monospace;
+	 padding: 1%;
+	 text-align: left;
+}
+
+#enlaces {
+	
+	font-size: 16px;
+	 background:linear-gradient(70deg, #6EE5C2, #8C04A8);
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+
+ul.a {
+	padding: 0;
+}
+
+ul.b{
+	list-style-type: circle;
+}
+li.c {
+	font-size: 15px;
+	
+  	color:#01DFD7;
+	
+}
+
+a {color:white;}
+a:hover { color: #01DFD7; }
